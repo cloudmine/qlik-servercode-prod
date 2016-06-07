@@ -1,6 +1,6 @@
 # Qlik Servercode
 
-This repository is designed to supply a CloudMine endpoint that the Qlik system can use to more easily consume CloudMine data.
+This repository is designed to supply a CloudMine endpoint that the Qlik system can use to more easily consume CloudMine data. The snippet will take an app's *Application Level* data, and return an array of information, as opposed to a key -> value JSON object.
 
 ##Overview
 
