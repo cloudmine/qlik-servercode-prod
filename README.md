@@ -8,7 +8,7 @@ The snippet contained exposes an endpoint, `/array` that returns all of the obje
 
 To get started with the Qlik Servercode snippet, go into the `lib/array.js` file, and update the Application ID and the API Key in lines 12-15. Once you do this, you're able to choose exactly which kind of result you'd like to receive from the snippet: an array of object dictionaries, or an array of object arrays.
 
-*Currently, only the first return type has been tested with the Qlik system.*
+*Currently, only the array of objects return type has been tested with the Qlik system.*
 
 ##Return Types
 
