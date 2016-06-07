@@ -4,7 +4,7 @@ This repository is designed to supply a CloudMine endpoint that the Qlik system 
 
 ##Overview
 
-The snippet contained exposes an endpoint, `/run/array` that returns all of the objects associated with a normal `/text` call (i.e., it retrieves all objects for an application), but formatted as an array instead of a {UUID : Object} dictionary.
+The snippet contained exposes an endpoint, `/array` that returns all of the objects associated with a normal `/text` call (i.e., it retrieves all objects for an application), but formatted as an array instead of a {UUID : Object} dictionary.
 
 To get started with the Qlik Servercode snippet, go into the `lib/array.js` file, and update the Application ID and the API Key in lines 12-15. Once you do this, you're able to choose exactly which kind of result you'd like to receive from the snippet: an array of object dictionaries, or an array of object arrays.
 
@@ -42,7 +42,7 @@ To change the result format, update the `dataType` variable on line 24 of `lib/a
 
 ##Running the Snippet
 
-This project is based on the CloudMine github repository [node-snippet-base](https://github.com/cloudmine/node-snippet-base). Check out the README.md to get more information on how to run this snippet locally for testing, and how to upload it to your CloudMine project for use with Qlik. 
+This project is based on the CloudMine github repository [node-snippet-base](https://github.com/cloudmine/node-snippet-base). Check out the README.md to get more information on how to run this snippet locally for testing, and how to upload it to your CloudMine project for use with Qlik.
 
 ##Ephemera
 
