@@ -38,4 +38,12 @@ In this second return type, objects are represented as arrays rather than key ->
 
 ##Changing the Result Format
 
-To change the result format
+To change the result format, update the `dataType` variable on line 24 of `lib/array.js`. The two options are currently `dataType_ObjectArray` and `dataType_ArrayArray`.
+
+##Running the Snippet
+
+This project is based on the CloudMine github repository [node-snippet-base](https://github.com/cloudmine/node-snippet-base). Check out the README.md to get more information on how to run this snippet locally for testing, and how to upload it to your CloudMine project for use with Qlik. 
+
+##Ephemera
+
+For any questions or concerns, please contact `support@cloudmineinc.com`.
