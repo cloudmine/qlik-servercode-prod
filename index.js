@@ -9,7 +9,8 @@
  * This can be more expressive, for example, you can use `fs` to
  * read all snippets in a directory and set them to your `module.exports`.
  */
-var ArraySnippet = require('./lib/array');
+var Arrays = require('./lib/arrays');
+var Objects = require('./lib/objects');
 var CloudMineNode = require('cloudmine-servercode');
 // Require any other node module you want...
 
@@ -18,7 +19,8 @@ var CloudMineNode = require('cloudmine-servercode');
  * or the server won't be able to read in the exports.
  */
 module.exports = {
-  array: ArraySnippet
+  arrays: Arrays,
+  objects: Objects
 };
 
 /**
