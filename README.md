@@ -48,6 +48,10 @@ Hitting the `/run/arrays` (`/code/arrays`) endpoint, on the other hand, will tak
 
 This project is based on the CloudMine github repository [node-snippet-base](https://github.com/cloudmine/node-snippet-base). Check out the README.md to get more information on how to run this snippet locally for testing, and how to upload it to your CloudMine project for use with Qlik.
 
+##Integrating with Qlik
+
+To integrate this snippet into the Qlik platform, simply point to it using the Qlik REST API connector.
+
 ##Ephemera
 
 For any questions or concerns, or if you have any suggestions or ideas, please contact `support@cloudmineinc.com`.
