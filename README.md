@@ -50,4 +50,4 @@ This project is based on the CloudMine github repository [node-snippet-base](htt
 
 ##Ephemera
 
-For any questions or concerns, please contact `support@cloudmineinc.com`.
+For any questions or concerns, or if you have any suggestions or ideas, please contact `support@cloudmineinc.com`.
