@@ -10,7 +10,9 @@ To get started with the Qlik Servercode snippet, go into the `lib/cmInfo.js` fil
 
 *Currently only the array of objects return type has been tested with the Qlik system. Look for updates soon!*
 
-##Array of Objects: `/lib/objects`
+##Array of Objects
+
+File location: `/lib/objects`
 
 Hitting the `/run/objects` endpoint (or, the `/code/objects` endpoint when testing lcoally), you can get a return array containing your JSON objects as they appear in the CloudMine system:
 
@@ -26,6 +28,8 @@ Hitting the `/run/objects` endpoint (or, the `/code/objects` endpoint when testi
 As you can see, each object remains a key -> value dictionary.
 
 ##Array of Arrays
+
+File location: `/lib/arrays`
 
 *The array of arrays return type has only been tested on single-layer CloudMine objects. Look for updates soon!*
 
